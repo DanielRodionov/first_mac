@@ -1,10 +1,6 @@
-HEAD -- это голова.
-Коммит -- это всему голова.
-Статусы файлов:
-<тут пустая строка!>
 
 ```mermaid
-%% graph LR;
+ graph LR;
 untracked -- "git add" --> staged;
 staged -- "???" --> tracked/commited;
 %% стрелка без текста для примера:
